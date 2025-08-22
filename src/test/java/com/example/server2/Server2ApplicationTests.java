@@ -20,7 +20,7 @@ public class Server2ApplicationTests {
     private UserRepository userRepository;
 
     @Autowired//автоматическая инициализация
-    private MockMvc mockMvc;
+    private MockMvc mockMvc;//erunda
 
     @Test
     public void testGetUserById() throws Exception {
